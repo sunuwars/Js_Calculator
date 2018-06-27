@@ -7,11 +7,9 @@ body{
 .wrapper{
   border: 1px solid green;
 }
-/*.lcd_disp{
-  width: 100%;
-  border: 1px solid red;
-} */
-.calculator{
+
+.calculator
+{
   width: 40%;
   margin: 0 auto;
   border: 1px solid purple;
