@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel = "stylesheet" href = "vanilla.css">
+<script src = "calc.js"></script>
+</head>
+<body>
+
+  <div class = "wrapper">
+    wrapper
+
+    <table class = "calculator">
+      <tr class = "calc_row">
+        <td class = "calc_disp" id = "display">0</td>
+      </tr>
+      <tr class = "calc_row">
+        <td class = "mybutton button_double_x" id = "clear" onclick = "all_clear();">A/C</td>
+        <td class = "mybutton button_single_x"  id = "divide" onclick = "math_operation('/');">/</td>
+        <td class = "mybutton button_single_x"  id = "multiply" onclick = "math_operation('*');">*</td>
+      </tr>
+
+      <tr class = "calc_row">
+        <td class = "mybutton button_single_x" id = "seven" onclick = "clicked_val('7');">7</td>
+        <td class = "mybutton button_single_x"  id = "eight" onclick = "clicked_val('8');">8</td>
+        <td class = "mybutton button_single_x"  id = "nine" onclick = "clicked_val('9');">9</td>
+        <td class = "mybutton button_single_x"  id = "subtract" onclick = "math_operation('-');">-</td>
+      </tr>
+      <tr class = "calc_row">
+        <td class = "mybutton button_single_x"  id = "four" onclick = "clicked_val('4');">4</td>
+        <td class = "mybutton button_single_x"  id = "five" onclick = "clicked_val('5');">5</td>
+        <td class = "mybutton button_single_x"  id = "six" onclick = "clicked_val('6');">6</td>
+        <td class = "mybutton button_single_x"  id = "add" onclick = "math_operation('+');">+</td>
+      </tr>
+      <tr class = "calc_row">
+        <td class = "mybutton button_single_x"  id = "one" onclick = "clicked_val('1');">1</td>
+        <td class = "mybutton button_single_x"  id = "two" onclick = "clicked_val('2');">2</td>
+        <td class = "mybutton button_single_x"  id = "three" onclick = "clicked_val('3');">3</td>
+        <td class = "mybutton button_single_x" style ="border-bottom:none;"  id = "equals" onclick = "equals_value('=');"></td>
+      </tr>
+      <tr class = "calc_row">
+        <td class = "mybutton button_double_x"  id = "zero" onclick = "clicked_val('0');">0</td>
+        <td class = "mybutton button_single_x"  id = "decimal" onclick = "clicked_val('.');">.</td>
+        <td class = "mybutton button_single_x"  id = "equals" onclick = "equals_value('=');" style="border-top:none;">=</td>
+      </tr>
+
+    </table>
+
+  </div>
+ hello world!
+ this is body
+</body>
+</html>

@@ -1,0 +1,43 @@
+
+body{
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid blue;
+}
+.wrapper{
+  border: 1px solid green;
+}
+/*.lcd_disp{
+  width: 100%;
+  border: 1px solid red;
+} */
+.calculator{
+  width: 40%;
+  margin: 0 auto;
+  border: 1px solid purple;
+}
+.calc_row{
+  width: 100%;
+}
+.button_double_x{
+  width: calc(50% - 6px); /*remove 6px later*/
+}
+.button_single_x{
+  width: calc(25% - 5px);   /*remove -2px later */
+}
+
+.mybutton{
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  text-align: center;
+  /*padding-top:10px;*/
+  border: 1px solid pink;
+}
+.calc_disp{
+  width: 100%;
+  line-height: 40px;
+  height: 40px;
+  text-align: right;
+  border: 1px solid red;
+}
